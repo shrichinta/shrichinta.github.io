@@ -245,6 +245,28 @@
 
     <div class="grid">
       <article class="card feature">
+        <div class="kicker"><span class="tag">Agentic AI · Finance ops</span><span class="status done">● Complete · tested live</span></div>
+        <div class="feature-body">
+          <div>
+            <h3>Enterprise Ops &amp; Invoice Reconciliation Copilot</h3>
+            <p>An AI agent that reconciles vendor PDF tax invoices against a live ERP database for UAE finance and logistics teams. It checks amounts net of 5% VAT, validates the UAE TRN against the vendor master, confirms shipment status, and logs every discrepancy for human review. <b>The LLM orchestrates and explains; every calculation, permission and write is enforced in code.</b></p>
+            <div class="chips">
+              <span class="chip">Gemini / Vertex AI</span><span class="chip">MCP</span><span class="chip">Python</span><span class="chip">SQLite</span><span class="chip">BM25 retrieval</span><span class="chip">Gradio</span><span class="chip">Docker</span><span class="chip">pytest</span>
+            </div>
+          </div>
+          <ul>
+            <li>Caught a +18% unapproved fuel surcharge (AED 12,000 → 14,160) with a page citation</li>
+            <li>Column-level RBAC: analysts can't see vendor margins; managers can</li>
+            <li>Prompt injection hidden in a vendor PDF detected and ignored; the mismatch was still flagged</li>
+            <li>Idempotent audit log: retries never create duplicate alerts</li>
+            <li>Primary + secondary model with circuit breaker, and a no-LLM degraded mode</li>
+            <li>54 deterministic tests · 2.5–4.5 s per audit</li>
+          </ul>
+        </div>
+        <div class="links"><a href="https://github.com/shrichinta/enterprise-ops-copilot" target="_blank" rel="noopener">View code →</a><a href="https://github.com/shrichinta/enterprise-ops-copilot/blob/main/docs/ARCHITECTURE.md" target="_blank" rel="noopener">Architecture →</a><a href="https://colab.research.google.com/github/shrichinta/enterprise-ops-copilot/blob/main/Enterprise_Ops_Copilot_Colab.ipynb" target="_blank" rel="noopener">Open in Colab →</a></div>
+      </article>
+
+      <article class="card feature">
         <div class="kicker"><span class="tag">Databricks · ML</span><span class="status">● Active development</span></div>
         <div class="feature-body">
           <div>
